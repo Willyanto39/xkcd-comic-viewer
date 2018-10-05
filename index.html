@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to XKCD Viewer</title>
+</head>
+<body>
+    <div id="content" class="container">
+        <div id="description" class="row">
+            <h2 class="text-center">XKCD Viewer is a website that allows users to view XKCD comic based on episode number</h2>
+        </div>
+
+        <div id="search-bar" class="row">
+            <div class="form-group">
+                <input type="text" name="episodeNumber" 
+                    id="episode-number" placeholder="episode number (blank for latest episode)">
+                <button id="view-comic-button" class="btn btn-primary">View XKCD comic</button>
+            </div>
+        </div>
+
+        <div id="image-content">
+            <div class="col-xs-12"><h1 id="title" class="text-center"></h1></div>
+            <img id="comic" class="img-responsive" src="" alt="">
+        </div>
+    </div>
+</body>
+</html>

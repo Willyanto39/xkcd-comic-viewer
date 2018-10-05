@@ -1,0 +1,14 @@
+#image-content{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#comic{
+    display: block;
+    margin: 0 auto;
+}
+
+#search-bar{
+    margin: 0 auto;
+    width: 60vw;
+}
